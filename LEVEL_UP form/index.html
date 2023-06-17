@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <title>Homework-6</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="content">
+          <div class="row-form">
+            <div class="row-form-btn">
+              <button type="button" class="btn-cross" onclick="Clear()">
+                <img src="./img/icon-cross.svg" alt="cross" />
+              </button>
+            </div>
+            <div class="row-form-text">
+              <h1>Member Sing In</h1>
+              <p>Not a member yet? <a href="#">Sign up now</a></p>
+            </div>
+            <div class="icon-man">
+              <input
+                id="user"
+                class="user"
+                type="text"
+                placeholder="Username / Email"
+              />
+            </div>
+            <div class="icon-lock">
+              <input
+                id="lock"
+                class="lock"
+                type="password"
+                placeholder="Password"
+              />
+            </div>
+            <button class="open hide">
+              <img src="./img/icon_open_eye.svg" alt="open-eye" />
+            </button>
+            <button class="close">
+              <img src="./img/icon-close-eye.svg" alt="close-eye" />
+            </button>
+          </div>
+          <div class="row-login">
+            <button class="btn-login">Sign in</button>
+            <div class="row-login-right">
+              <p>
+                <label>
+                  <input
+                    class="real-checkbox"
+                    name="flag"
+                    type="checkbox"
+                    checked
+                  />
+                  <span class="custom-checkbox"></span>
+                  Remember me
+                </label>
+              </p>
+              <a href="#">Forgot password?</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="logo">
+        <img src="./img/logo.png" alt="logo">
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
